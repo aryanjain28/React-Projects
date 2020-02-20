@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    background-color: lavender;
+    box-sizing: border-box;
+}
+
+.mainComponent {
+    /* border: solid; */
+    margin: auto;
+    width: fit-content;
+    margin-top: 3%;
+    font-family: 'Lato', sans-serif;
+}
+
+.generalText {
+    background-color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2%;
+    width: 80%;
+}
+
+.countDownText {
+    color: #111;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.countDownItem {
+    display:inline-block;
+}
+
+.timerCount {
+    color: #111;
+    font-size: 100px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.timerText {
+    color: #111;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+input[type=date] {
+    width: 100%;
+    letter-spacing: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
